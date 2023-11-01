@@ -1,0 +1,28 @@
+.rent-info-title{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4a4a4a;
+    border-bottom: 3px solid #eff1f3;
+}
+.driver-info{
+    padding: 0;
+    height: 40px;
+    padding-left: 11px;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+.rent-info-label{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+    margin-left: 12px;
+}

@@ -1,0 +1,65 @@
+.slick-slider ul li button{
+    width: 11px;
+    height: 11px;
+    background: transparent;
+    border: 1px solid #cfcfcf;
+    border-radius: 50%;
+    margin-right: 9px;
+}
+.slick-slider ul li button::before{
+    display: none;
+}
+.slick-slider ul .slick-active button{
+    background-color: #f5a623;
+}
+.partnior{
+    width: 14%;
+}
+.partnior img{
+    width: 100%;
+    filter: grayscale(100%);
+    opacity: 0.3;
+    width: 106px;
+}
+.partnior-row{
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 996px){
+    .partnior{
+        width: 25%;
+    }
+}
+@media (max-width: 540px){
+    .partnior{
+        width: 33%;
+    }
+    .error-page-wrapper .text-404{
+        margin-left: 20px !important;
+        font-size: 104px !important;
+        text-align: center !important;
+    }
+    .error-page-wrapper .content-404{
+        padding: 10px 20px !important;
+        display: block !important;
+        height: 300px !important;
+    }
+}
+@media (max-width: 770px){
+    .mobil-app-content{
+        display: block !important;
+        width: 100% !important;
+    }
+    .mobil-app-content .title,
+    .mobil-app-content .desc,
+    .mobil-app-content .logo
+    {
+        text-align: center !important;
+        padding-right: 0% !important;
+        width: 100% !important  ;
+    }
+    .mobil-app-links{
+        flex-direction: column;
+        margin-top: 30px !important;
+    }
+}

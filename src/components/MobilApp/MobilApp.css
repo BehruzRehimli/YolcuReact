@@ -1,0 +1,45 @@
+.mobil-app{
+    width: 100%;
+    margin-top: 32px;
+    background: url(../../images/mobil.png) center center no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    padding: 30px 20px;
+}
+.mobil-app-content{
+    width: 65%;
+    display: flex;
+    gap: 1.25rem;
+}
+.mobil-app-content .logo{
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+}
+.mobil-app-content .logo img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.mobil-app-content p{
+    color: white;
+    text-align: left;
+    margin-bottom: 0;
+    width: calc(100% - 80px);
+}
+.mobil-app-content .desc{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.mobil-app-content .title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.mobil-app-links{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}

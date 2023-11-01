@@ -1,0 +1,108 @@
+header .Logo-div img{
+    width: 110px;
+    height: 32px;
+    margin: 5px 30px;
+}
+
+
+.top-header-back{
+    height: 40px;
+}
+.top-header-cont{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    width: 100vw;
+    background-color: white;
+    z-index: 99999;
+    height: 45px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18);
+}
+.call-center{
+    display: flex;
+    padding: 6px 8px;
+}
+.top-header-right{
+    display: flex;
+    margin-right: 20px;
+}
+.top-header-cont .right{
+    margin-left: 3px;
+}
+.top-header-cont .right p{
+    color: #ffa900;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+}
+.top-header-cont .right .phone-number{
+    font-size: 11px;
+    font-weight: 600;
+    color: #0e568c;
+    line-height: 11px;
+}
+.top-header .burger-menu{
+    width: 375px;
+    border: 1px solid #eff1f3;
+    box-shadow: 1px 2px 5px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    min-width: 10rem;
+    background-clip: padding-box;
+    position: fixed;
+    top: 50px;
+    right: 0%;
+    background-color: white;
+    z-index: 99999;
+}
+.top-header .burger-menu .nav-item{
+    padding: 14px;
+    border-bottom: 1px solid #eff1f3;
+    padding-left: 25px;
+    list-style: none;
+    text-align: left;
+    cursor: pointer;
+}
+.top-header .burger-menu .nav-item .menu-element{
+    color: #2169aa;
+    font-weight: 600;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.burger-menu-btn{
+    background: white;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 15px;
+    color: #03437f;
+    font-weight: 600;
+    width: 58px;
+    position: relative;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+    padding: 0.5rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.active.burger-menu-btn{
+    background: #f1f1f1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14);
+}
+@media (max-width:992px){
+    .top-header nav .menu-element{
+        display: none;
+    }
+    .top-header .burger-menu-con{
+        display: block !important;
+    }
+    .top-header{
+        width: 100%;
+    }
+}
+@media (min-width:992px){
+    .top-header .burger-menu{
+        display: none !important;
+    }
+
+}
